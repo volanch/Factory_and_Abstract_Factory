@@ -1,8 +1,10 @@
 package factory;
 
-abstract class SmartphoneFactory {
-    public abstract Smartphone createSmartphone();
-    public void planSpecs() {
-        Smartphone phone = createSmartphone();
+public abstract class PhoneFactory {
+    public abstract Phone createPhone();
+
+    public void showSpecs() {
+        Phone phone = createPhone();
         phone.specs();
+    }
 }

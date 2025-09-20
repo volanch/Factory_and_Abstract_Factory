@@ -1,4 +1,5 @@
 package abstractFactory;
 
-public interface Tablet {
+public interface Laptop {
+    void specs();
 }

@@ -1,4 +1,8 @@
 package abstractFactory;
 
-public class GamingPhone {
+public class GamingPhone implements Phone {
+    @Override
+    public void specs() {
+        System.out.println("Gaming Phone: 144Hz display, OLED screen.");
+    }
 }
