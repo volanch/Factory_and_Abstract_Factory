@@ -1,4 +1,6 @@
-package abstractFactory;
+package abstractFactory.ConcreteProducts.Gaming;
+
+import abstractFactory.AbstractProducts.Laptop;
 
 public class GamingLaptop implements Laptop {
     @Override

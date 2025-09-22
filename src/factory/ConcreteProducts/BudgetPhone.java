@@ -1,6 +1,8 @@
-package factory;
+package factory.ConcreteProducts;
 
-public class BudgetPhone implements Phone{
+import factory.ProductInterface.Phone;
+
+public class BudgetPhone implements Phone {
 
     @Override
     public void specs(){

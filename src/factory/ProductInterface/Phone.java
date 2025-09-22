@@ -1,4 +1,4 @@
-package abstractFactory;
+package factory.ProductInterface;
 
 public interface Phone {
     void specs();

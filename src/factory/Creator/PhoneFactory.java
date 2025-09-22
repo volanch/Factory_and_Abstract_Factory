@@ -1,4 +1,6 @@
-package factory;
+package factory.Creator;
+
+import factory.ProductInterface.Phone;
 
 public abstract class PhoneFactory {
     public abstract Phone createPhone();

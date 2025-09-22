@@ -1,4 +1,6 @@
-package abstractFactory;
+package abstractFactory.ConcreteProducts.Budget;
+
+import abstractFactory.AbstractProducts.Phone;
 
 public class BudgetPhone implements Phone {
     @Override

@@ -1,4 +1,6 @@
-package factory;
+package factory.ConcreteProducts;
+
+import factory.ProductInterface.Phone;
 
 public class GamingPhone implements Phone {
 
